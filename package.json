@@ -1,0 +1,14 @@
+{
+  "name": "vanillajs-tw",
+  "version": "1.0.0",
+  "description": "vanillajs + tailwindcss + feather icons",
+  "main": "index.html",
+  "scripts": {
+    "tw": "tailwindcss -i ./src/input.css -o ./dist/output.css --watch"
+  },
+  "author": "Kentaro Furukawa",
+  "license": "ISC",
+  "devDependencies": {
+    "tailwindcss": "^3.0.24"
+  }
+}
